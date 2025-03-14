@@ -11,7 +11,7 @@ const app = express();
 
 app.use(express.json()); //allows us to accept JSON data in the body
 
-app.use("/apt/products", productRoutes);
+app.use("/api/products", productRoutes);
 
 console.log(process.env.MONGO_URI);
 
